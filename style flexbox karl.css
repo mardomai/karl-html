@@ -1,0 +1,59 @@
+* {
+    margin: 14px;
+}
+.container {
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    gap: 50px;
+    margin-bottom: 10px;
+
+}
+.box {
+    width: 200px;
+    background-color: aqua;
+}
+
+.secondcontainer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.secondbox {
+    width: 200px;
+    background-color: yellow;
+}
+.thirdcontainer {
+    height: 200px;
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.thirdbox {
+    padding: 20px;
+    width: 200px;
+    background-color: blue;
+}
+.fourthcontainer {
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+.fourthbox {
+    width: 40%;
+    height: 70%;
+    background-color: pink;
+
+}
